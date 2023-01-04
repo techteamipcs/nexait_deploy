@@ -3,7 +3,7 @@ name: nexait
 on: push
 
 jobs:
-  super-lint:
+  nexait_deploy:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
