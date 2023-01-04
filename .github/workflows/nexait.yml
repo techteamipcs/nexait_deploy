@@ -1,4 +1,4 @@
-name: nexait
+name: nexait_deploy
 
 on: push
 
