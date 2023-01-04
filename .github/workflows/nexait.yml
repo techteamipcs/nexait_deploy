@@ -1,17 +1,17 @@
-name: nexait_deploy
+name: nexait
 
 on: push
 
 jobs:
-  super-lint:
+  nexait_deploy:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run nexait_deploy
-        uses: github/techteamipcs@v3
+      - name: Run nexait
+        uses: github/nexait_deploy/@v3
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
