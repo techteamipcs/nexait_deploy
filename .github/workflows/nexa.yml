@@ -9,7 +9,8 @@ jobs:
     steps:
       - name: Checkout master
         uses: actions/checkout@main
-        
+      - name: git
+        run: git pull
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
