@@ -1302,6 +1302,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ngx-slick-carousel
 MIT
 
+ngx-spinner
+MIT
+
 nth-check
 BSD-2-Clause
 Copyright (c) Felix Böhm
